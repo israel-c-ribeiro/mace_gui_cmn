@@ -126,32 +126,10 @@ streamlit run app.py
 
 ---
 
-<<<<<<< HEAD
-## Citation
-
-If you use CMN-MACE Studio in your research, please cite the underlying MACE model:
-
-```bibtex
-@article{batatia2023mace,
-  title={MACE: Higher order equivariant message passing neural networks for fast and accurate force fields},
-  author={Batatia, Ilyes and Kovacs, David Peter and Simm, Gregor N. C. and Ortner, Christoph and Csanyi, Gabor},
-  journal={Advances in Neural Information Processing Systems},
-  year={2023}
-}
-```
-
----
-=======
->>>>>>> 535a8dce9041e9557345c8411078ccb3e8e83590
 
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
----
-
-<<<<<<< HEAD
-<p align="center">Developed at <b>CMN · UMONS</b> — Centre for Materials Nanotechnology, University of Mons, Belgium.</p>
-=======
 <p align="center">Developed at <b>CMN · UMONS</b> — Chimie des Matériaux Nouveaux, University of Mons, Belgium.</p>
 >>>>>>> 535a8dce9041e9557345c8411078ccb3e8e83590
