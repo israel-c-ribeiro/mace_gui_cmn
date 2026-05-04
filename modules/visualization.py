@@ -12,19 +12,7 @@ import plotly.graph_objects as go
 
 
 def plot_energy_vs_step(history: list[dict[str, Any]]) -> go.Figure:
-    """Dual-axis convergence plot: energy and max force vs optimiser step.
-
-    Parameters
-    ----------
-    history:
-        List of dicts with keys ``step``, ``energy``, ``max_force``
-        (as returned by :func:`modules.simulation.run_optimization`).
-
-    Returns
-    -------
-    go.Figure
-        Interactive Plotly figure.
-    """
+    """Dual-axis convergence plot: energy and max force vs optimiser step."""
     df = pd.DataFrame(history)
 
     fig = go.Figure()
@@ -50,11 +38,18 @@ def plot_energy_vs_step(history: list[dict[str, Any]]) -> go.Figure:
 
     fig.update_layout(
         title="Geometry Optimisation Convergence",
-        xaxis_title="Step",
-        yaxis=dict(title="Energy (eV)", titlefont=dict(color="#1f77b4")),
+        xaxis=dict(title=dict(text="Step")),
+        yaxis=dict(
+            title=dict(
+                text="Energy (eV)", 
+                font=dict(color="#1f77b4")
+            )
+        ),
         yaxis2=dict(
-            title="Max Force (eV/Å)",
-            titlefont=dict(color="#ff7f0e"),
+            title=dict(
+                text="Max Force (eV/Å)", 
+                font=dict(color="#ff7f0e")
+            ),
             overlaying="y",
             side="right",
         ),
@@ -67,19 +62,7 @@ def plot_energy_vs_step(history: list[dict[str, Any]]) -> go.Figure:
 
 
 def plot_md_trajectory(history: list[dict[str, Any]]) -> go.Figure:
-    """Dual-axis MD trajectory plot: energy and temperature vs time.
-
-    Parameters
-    ----------
-    history:
-        List of dicts with keys ``time_fs``, ``energy``, ``temperature_k``
-        (as returned by :func:`modules.simulation.run_md`).
-
-    Returns
-    -------
-    go.Figure
-        Interactive Plotly figure.
-    """
+    """Dual-axis MD trajectory plot: energy and temperature vs time."""
     df = pd.DataFrame(history)
 
     fig = go.Figure()
@@ -105,11 +88,18 @@ def plot_md_trajectory(history: list[dict[str, Any]]) -> go.Figure:
 
     fig.update_layout(
         title="MD Trajectory",
-        xaxis_title="Time (fs)",
-        yaxis=dict(title="Energy (eV)", titlefont=dict(color="#2ca02c")),
+        xaxis=dict(title=dict(text="Time (fs)")),
+        yaxis=dict(
+            title=dict(
+                text="Energy (eV)", 
+                font=dict(color="#2ca02c")
+            )
+        ),
         yaxis2=dict(
-            title="Temperature (K)",
-            titlefont=dict(color="#d62728"),
+            title=dict(
+                text="Temperature (K)", 
+                font=dict(color="#d62728")
+            ),
             overlaying="y",
             side="right",
         ),
@@ -122,19 +112,7 @@ def plot_md_trajectory(history: list[dict[str, Any]]) -> go.Figure:
 
 
 def plot_batch_ranking(df: pd.DataFrame) -> go.Figure:
-    """Bar chart of relative energies from a batch-ranking result.
-
-    Parameters
-    ----------
-    df:
-        DataFrame returned by :func:`modules.batch.batch_relax_and_rank`,
-        expected to have columns ``label`` and ``e_rel_ev``.
-
-    Returns
-    -------
-    go.Figure
-        Interactive Plotly bar chart.
-    """
+    """Bar chart of relative energies from a batch-ranking result."""
     plot_df = df.reset_index()  # bring 'rank' into columns
 
     fig = px.bar(
