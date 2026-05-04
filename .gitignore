@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# MACE model cache (downloaded automatically at runtime)
+*.model
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test outputs
+convergence.csv
+md_trajectory.csv
+batch_ranking.csv
+relaxed.vasp
+opt.log
+opt.traj
+md.log
+md.traj
+forces.txt
+slurm-*.out
+slurm-*.err
