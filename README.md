@@ -131,5 +131,5 @@ streamlit run app.py
 
 MIT License — see [LICENSE](LICENSE) for details.
 
-<p align="center">Developed at <b>CMN · UMONS</b> — Chimie des Matériaux Nouveaux, University of Mons, Belgium.</p>
->>>>>>> 535a8dce9041e9557345c8411078ccb3e8e83590
+<p align="center">Developed by Dr. Israel C. Ribeiro (israelcristian.DACUNHARIBEIRO@umons.ac.be) at <b>CMN · UMONS</b> — Chimie des Matériaux Nouveaux, University of Mons, Belgium.</p>
+ 
