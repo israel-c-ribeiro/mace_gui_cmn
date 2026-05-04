@@ -133,4 +133,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-<p align="center">Developed at <b>CMN · UMONS</b> — Centre for Materials Nanotechnology, University of Mons, Belgium.</p>
+<p align="center">Developed at <b>CMN · UMONS</b> — Chimie des Matériaux Nouveaux, University of Mons, Belgium.</p>
