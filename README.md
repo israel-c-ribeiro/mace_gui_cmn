@@ -126,6 +126,7 @@ streamlit run app.py
 
 ---
 
+<<<<<<< HEAD
 ## Citation
 
 If you use CMN-MACE Studio in your research, please cite the underlying MACE model:
@@ -140,6 +141,8 @@ If you use CMN-MACE Studio in your research, please cite the underlying MACE mod
 ```
 
 ---
+=======
+>>>>>>> 535a8dce9041e9557345c8411078ccb3e8e83590
 
 ## License
 
@@ -147,4 +150,8 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
+<<<<<<< HEAD
 <p align="center">Developed at <b>CMN · UMONS</b> — Centre for Materials Nanotechnology, University of Mons, Belgium.</p>
+=======
+<p align="center">Developed at <b>CMN · UMONS</b> — Chimie des Matériaux Nouveaux, University of Mons, Belgium.</p>
+>>>>>>> 535a8dce9041e9557345c8411078ccb3e8e83590
