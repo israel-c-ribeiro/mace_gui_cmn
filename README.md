@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="CMN-MACE Studio" width="200"/>
+  <img src="logo.png" alt="CMN-MACE Studio" width="350"/>
 </p>
 
 <h1 align="center">CMN-MACE Studio</h1>
