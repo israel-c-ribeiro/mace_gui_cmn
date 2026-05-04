@@ -69,8 +69,8 @@ cmn-mace-studio/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-org>/cmn-mace-studio.git
-cd cmn-mace-studio
+git clone https://github.com/israel-c-ribeiro/mace_gui_cmn.git
+cd mace_gui_cmn
 
 # 2. Create and activate the conda environment
 conda create -n mace python=3.11 -y
@@ -89,8 +89,8 @@ streamlit run app.py
 ### Option B — pip (Linux / macOS)
 
 ```bash
-git clone https://github.com/<your-org>/cmn-mace-studio.git
-cd cmn-mace-studio
+git clone https://github.com/israel-c-ribeiro/mace_gui_cmn.git
+cd mace_gui_cmn
 pip install -r requirements.txt
 streamlit run app.py
 ```
