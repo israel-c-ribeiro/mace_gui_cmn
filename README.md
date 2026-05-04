@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="logo.png" alt="CMN-MACE Studio" width="700"/>
+  <img src="logo.png" alt="CMN-MACE Studio" width="150"/>
 </p>
 
 <h1 align="center">CMN-MACE Studio</h1>
 <p align="center">
   <b>Machine Learning Potentials for Materials Discovery</b><br>
   Research-grade atomistic simulation platform · ASE + MACE<br>
-  <a href="https://www.umons.ac.be">CMN · UMONS</a>
+  <a href="http://cmn.umons.ac.be">CMN · UMONS</a>
 </p>
 
 <p align="center">
